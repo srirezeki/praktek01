@@ -10,18 +10,22 @@ package praktek01;
  * @author My PC
  */
 public class Tv {
-    string merk;
-    string harga;
-    string ukuran;
-    string kualitas;
-    string garansi;
+    String merk;
+    String harga;
+    String ukuran;
+    String kualitas;
+    String garansi;
     
     void cetakinfo(){
-        system.out.println("merk"+merk);
-        system.out.println("harga"+harga);
-        system.out.println("ukuran"+ukuran);
-        system.out.println("kualitas"+kualitas);
-        system.out.println("garansi"+garansi);
+        System.out.println("merk"+merk);
+        System.out.println("harga"+harga);
+        System.out.println("ukuran"+ukuran);
+        System.out.println("kualitas"+kualitas);
+        System.out.println("garansi"+garansi);
+        
+       System.out.println(""); 
+       System.out.println(" untuk ditonton");
+       System.out.println("");
     }
     
 }
